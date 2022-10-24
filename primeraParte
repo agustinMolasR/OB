@@ -1,0 +1,15 @@
+public class Main {
+
+    public static void main(String[] args) {
+        int num1 = 15;
+        int num2 = 15;
+        int num3 = 20;
+        int rest = suma(num1, num2, num3);
+        System.out.println(rest);
+    }
+
+    public static int suma(int a, int b, int c) {
+        int d = a + b + c;
+        return d;
+    }
+}
