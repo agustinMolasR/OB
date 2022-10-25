@@ -1,0 +1,21 @@
+class Main {
+    public static void main(String[] args) {
+        var estacion = "otoño";
+        switch(estacion) {
+            case "primavera":
+                System.out.println("Estás en primavera!");
+                break;
+            case "verano":
+                System.out.println("Estás en verano!");
+                break;
+            case "otoño":
+                System.out.println("Estás en otoño!");
+                break;
+            case "invierno":
+                System.out.println("Estás en invierno!");
+                break;
+            default:
+                System.out.println("Estás en default.");
+        }
+    }
+}
