@@ -1,0 +1,12 @@
+class Main {
+    public static void main(String[] args) {
+        int numeroIf = -5;
+        if (numeroIf > 0) {
+            System.out.println("Es positivo!");
+        } else if (numeroIf < 0) {
+            System.out.println("Es negativo!");
+        } else {
+            System.out.println("Tu número es 0.");
+        }
+    }
+}
